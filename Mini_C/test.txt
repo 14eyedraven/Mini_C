@@ -1,0 +1,9 @@
+i = 0;
+sum = 0;
+while( i < 20 ) {
+	i = i + 1;
+	if( 10 < i )
+		continue;
+	sum = i + 1;
+}
+
